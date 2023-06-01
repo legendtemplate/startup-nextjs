@@ -1,0 +1,101 @@
+title: 'The React Framework for the Web',
+description: 'The React Framework for the Web',
+keywords: ['Next.js', 'React', 'JavaScript'],
+metadataBase: new URL('https://acme.com'),
+colorScheme: 'dark',
+creator: 'Jiachi Liu',
+publisher: 'Sebastian Markbåge',
+themeColor: 'black',
+export const metadata = {
+  openGraph: {
+    title: 'Next.js',
+    description: 'The React Framework for the Web',
+    url: 'https://nextjs.org',
+    siteName: 'Next.js',
+    images: [
+      {
+        url: 'https://nextjs.org/og.png',
+        width: 800,
+        height: 600,
+      },
+      {
+        url: 'https://nextjs.org/og-alt.png',
+        width: 1800,
+        height: 1600,
+        alt: 'My custom alt',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+    <!-- articles -->
+    type: 'article',
+    publishedTime: '2023-01-01T00:00:00.000Z',
+    authors: ['Seb', 'Josh'],
+  },
+  robots: {
+    index: false,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: false,
+      noimageindex: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  icons: {
+    icon: [{ url: '/icon.png' }, new URL('/icon.png', 'https://example.com')],
+    shortcut: ['/shortcut-icon.png'],
+    apple: [
+      { url: '/apple-icon.png' },
+      { url: '/apple-icon-x3.png', sizes: '180x180', type: 'image/png' },
+    ],
+    other: [
+      {
+        rel: 'apple-touch-icon-precomposed',
+        url: '/apple-touch-icon-precomposed.png',
+      },
+    ],
+  },
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: 'cyan' },
+    { media: '(prefers-color-scheme: dark)', color: 'black' },
+  ],
+  twitter: {
+    card: 'app',
+    title: 'Next.js',
+    description: 'The React Framework for the Web',
+    siteId: '1467726470533754880',
+    creator: '@nextjs',
+    creatorId: '1467726470533754880',
+    images: {
+      url: 'https://nextjs.org/og.png',
+      alt: 'Next.js Logo',
+    },
+    app: {
+      name: 'twitter_app',
+      id: {
+        iphone: 'twitter_app://iphone',
+        ipad: 'twitter_app://ipad',
+        googleplay: 'twitter_app://googleplay',
+      },
+      url: {
+        iphone: 'https://iphone_url',
+        ipad: 'https://ipad_url',
+      },
+    },
+  },
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+  },
+};
+
+
+
+
+
+
